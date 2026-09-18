@@ -1,4 +1,4 @@
-import { ArrowRight, Cpu, Leaf, Zap, RefreshCw } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 
 export default function HeroSection() {
   return (
@@ -80,31 +80,6 @@ export default function HeroSection() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-slate-950/40 via-transparent to-transparent opacity-60" />
             </div>
-          </div>
-        </div>
-
-        {/* Bottom Focus Clusters */}
-        <div className="mt-16 pt-8 border-t border-slate-100 flex flex-col sm:flex-row items-start sm:items-center gap-4">
-          <span className="text-xs font-bold uppercase tracking-wider text-slate-400 shrink-0">
-            Fokus Klaster:
-          </span>
-          <div className="flex flex-wrap items-center gap-3">
-            <span className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-semibold bg-blue-50 text-blue-800 border border-blue-100">
-              <Cpu className="w-3.5 h-3.5 text-blue-600" />
-              Teknologi: IoT &amp; AI
-            </span>
-            <span className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-semibold bg-emerald-50 text-emerald-800 border border-emerald-100">
-              <Leaf className="w-3.5 h-3.5 text-emerald-600" />
-              Pangan: Presisi &amp; Fortifikasi
-            </span>
-            <span className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-semibold bg-sky-50 text-sky-800 border border-sky-100">
-              <Zap className="w-3.5 h-3.5 text-sky-600" />
-              Energi: Terbarukan
-            </span>
-            <span className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-semibold bg-teal-50 text-teal-800 border border-teal-100">
-              <RefreshCw className="w-3.5 h-3.5 text-teal-600" />
-              Keberlanjutan: Circular Tech
-            </span>
           </div>
         </div>
       </div>
